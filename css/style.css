@@ -91,12 +91,12 @@ a {
 
 .menu-Close {
   display: none;
-  position: absolute; 
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-  z-index: 1; 
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -159,4 +159,31 @@ a {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+/* type of Teas */
+
+.typeInner h2{
+  font-size: 40px;
+  line-height: normal;
+  font-style: italic;
+  max-width: 704px;
+  margin: 160px auto;
+  font-family: "Cormorant", serif;
+  text-align: center;
+  color: #151618;
+}
+.typeSection {
+  margin-top: 150px;
+}
+.typeList {
+  display: flex;
+  gap: 0 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.typeItem img{
+  max-height: 208px;
+  max-width: 208px;
+  width: 100%;
 }
