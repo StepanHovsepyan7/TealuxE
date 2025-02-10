@@ -1,3 +1,21 @@
+@media (max-width: 1200px) {
+  .mailingListInner {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .title2 {
+    padding-top: 0px !important;
+    text-align: center !important;
+  }
+  .title {
+    padding-top: 0px !important;
+  }
+  .formParagraph {
+    text-align: center !important;
+    flex-basis: 780px !important;
+  }
+}
+
 @media (max-width: 1000px) {
   .userItemsSearch {
     margin-left: 30px !important;
@@ -29,6 +47,18 @@
   }
   .reviewsItemHide {
     display: none !important;
+  }
+  .mainBlog {
+    padding: 60px 0 !important;
+  }
+  .mainBlogItem {
+    flex-basis: 460px !important;
+  }
+  .mainBlogItem img {
+    max-width: 220px !important;
+  }
+  .mainBlogList {
+    gap: 67px 20px !important;
   }
 }
 
@@ -103,6 +133,21 @@
   .reviewsItem {
     flex-basis: calc(44% - 10px) !important;
   }
+  .mainBlogItem {
+    flex-basis: 542px !important;
+  }
+  .mainBlogItem img {
+    max-width: 270px !important;
+  }
+  .mainBlogList {
+    gap: 30px 20px;
+  }
+  .mainBlogItem:nth-child(even) {
+    margin-left: 98px !important;
+  }
+  .formParagraph {
+    flex-basis: 640px !important;
+  }
 }
 
 @media (max-width: 680px) {
@@ -123,11 +168,29 @@
     margin-top: 60px !important;
     margin-bottom: 60px !important;
   }
+  .mainBlogItem:nth-child(even) {
+    margin-left: 0px !important;
+  }
 }
 
 @media (max-width: 620px) {
   .reviewsList {
     gap: 30px 25px !important;
+  }
+  .emailInp {
+    width: 68% !important;
+  }
+  .mailingForm {
+    flex-basis: 100% !important;
+  }
+}
+
+@media (max-width: 517px) {
+  .emailInp {
+    width: 68% !important;
+  }
+  .mailingForm {
+    flex-basis: 100% !important;
   }
 }
 
@@ -146,6 +209,55 @@
   }
   .reviewsItem {
     flex-basis: calc(50% - 10px) !important;
+  }
+  .title {
+    padding-top: 0px !important;
+  }
+  .reviews {
+    padding: 50px 0 !important;
+  }
+  .mainBlogItem img {
+    max-width: 230px !important;
+  }
+
+  .mainContent h3 {
+    font-size: 19px !important;
+  }
+  .formParagraph {
+    font-size: 13px !important;
+    flex-basis: 480px !important;
+    line-height: 17.7px !important;
+  }
+  .emailInp {
+    width: 60% !important;
+  }
+  .subBtn {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .mainBlogItem:nth-child(even) {
+    display: none !important;
+  }
+  .mainBlogList {
+    justify-content: center !important;
+  }
+  .mainBlogItem {
+    display: block !important;
+    max-width: 270px !important;
+  }
+  .mainBlogItem img {
+    max-width: 100% !important;
+  }
+  .mainBlogItem {
+    justify-content: center !important;
+  }
+  .mainContent h3 {
+    font-size: 24px !important;
+  }
+  .emailInp {
+    width: 55% !important;
   }
 }
 
@@ -193,7 +305,13 @@
   .reviews {
     padding: 50px 0 !important;
   }
-  .title{
-    padding-top:0 !important;
+  .title {
+    padding-top: 0 !important;
+  }
+  .title2 {
+    font-size: 24px !important;
+  }
+  .emailInp {
+    width: 50% !important;
   }
 }
