@@ -363,3 +363,32 @@ a {
   overflow: hidden;
   cursor: pointer;
 }
+
+/*  Prioritise Section*/
+
+.prioritiseMain{
+  padding: 60px;
+  color: #151618;
+  font-family: "Open Sans", serif;
+}
+.prioritiseList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  gap:0 50px;
+}
+.prioritesTitle{
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.prioritiseText{
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 27px;
+}

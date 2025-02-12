@@ -60,6 +60,15 @@
   .mainBlogList {
     gap: 67px 20px !important;
   }
+  .prioritiseList {
+    gap: 30px 210px !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .prioritiseList {
+    gap: 30px 113px !important;
+  }
 }
 
 @media (max-width: 860px) {
@@ -234,6 +243,9 @@
   .subBtn {
     margin-left: 20px !important;
   }
+  .prioritiseList {
+    gap: 50px 0px !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -313,5 +325,18 @@
   }
   .emailInp {
     width: 50% !important;
+  }
+  .prioritiseMain {
+    padding: 50px !important;
+  }
+  .prioritesTitle {
+    font-size: 20px !important;
+  }
+  .prioritiseText {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+  }
+  .prioritiseList {
+    gap: 40px !important;
   }
 }
