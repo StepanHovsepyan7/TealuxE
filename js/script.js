@@ -17,3 +17,6 @@ menuCloseBtn.addEventListener('click', () =>{
     menuCloseMobile.classList.remove('menuOpen');
 })
 
+AOS.init({
+    once: false,
+});

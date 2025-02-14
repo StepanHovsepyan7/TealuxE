@@ -16,6 +16,19 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .bottomMain {
+    margin-top: 50px !important;
+    gap: 40px !important;
+  }
+  .secondPartText {
+    margin-top: 0px !important;
+  }
+  .prioritiseItem {
+    padding-top: 33px !important ;
+  }
+}
+
 @media (max-width: 1000px) {
   .userItemsSearch {
     margin-left: 30px !important;
@@ -63,11 +76,31 @@
   .prioritiseList {
     gap: 30px 210px !important;
   }
+
+  /* footer Part */
+
+  .secondPart li {
+    font-size: 14px !important;
+  }
 }
 
 @media (max-width: 960px) {
   .prioritiseList {
     gap: 30px 113px !important;
+  }
+}
+
+@media (max-width: 918px) {
+  .footerInner2 {
+    margin-left: auto;
+    position: relative !important;
+    bottom: 145px !important;
+  }
+  .secondPart li {
+    font-size: 16px !important;
+  }
+  .contactDetails {
+    gap: 10px !important;
   }
 }
 
@@ -157,6 +190,9 @@
   .formParagraph {
     flex-basis: 640px !important;
   }
+  .mainFooter {
+    padding: 60px 0px !important;
+  }
 }
 
 @media (max-width: 680px) {
@@ -179,6 +215,56 @@
   }
   .mainBlogItem:nth-child(even) {
     margin-left: 0px !important;
+  }
+  .mainNavigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start !important;
+    gap: 0px 200px !important;
+  }
+  .secondPartText {
+    max-width: 100% !important;
+    margin-top: 30px  !important;
+  }
+  .bottomMain {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .footerInner2 {
+    bottom: 0 !important;
+    margin: 0 auto !important;
+  }
+  .socialIcons {
+    justify-content: center !important;
+    margin-right: 153px !important;
+    margin-left: auto !important;
+    text-align: center !important;
+  }
+  .dashedTitle2 {
+    text-align: center !important;
+  }
+  .socialIcons {
+    margin: 0 auto !important;
+    padding-top: 30px;
+  }
+  .footerParagraph {
+    text-align: center !important;
+    margin-top: 30px !important;
+  }
+  .contactBox {
+    margin: 0 auto !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+  .logo {
+    margin-top: 30px !important;
+  }
+  .secondPartText2 {
+    max-width: 402px !important;
+    text-align: center !important;
+  }
+  .logo2 {
+    margin-top: 30px !important;
   }
 }
 
@@ -248,6 +334,12 @@
   }
 }
 
+@media (max-width: 460px) {
+  .mainNavigation {
+    gap: 0px 140px !important;
+  }
+}
+
 @media (max-width: 400px) {
   .mainBlogItem:nth-child(even) {
     display: none !important;
@@ -270,6 +362,12 @@
   }
   .emailInp {
     width: 55% !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .mainNavigation {
+    gap: 0px 92px !important;
   }
 }
 

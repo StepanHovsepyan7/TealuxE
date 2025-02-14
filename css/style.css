@@ -513,13 +513,13 @@ a {
 }
 /* icons */
 
-.bottomMain{
+.bottomMain {
   gap: 132px;
   display: flex;
   margin-top: 100px;
 }
 
-.bottomMain p{
+.bottomMain p {
   font-size: 16px;
   font-weight: 300;
   line-height: 21px;
